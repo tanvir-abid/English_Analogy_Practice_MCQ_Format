@@ -1,0 +1,888 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #171717;
+    color: #EDEDED;
+}
+/* #444444 gray
+DA0037 red
+EDEDED white */
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #2c3e50; /* Dark background color */
+    color: #ecf0f1; /* Light text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.navbar-title {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title img{
+    width: 50px;
+    cursor: pointer;
+}
+.navbar-title .title-text h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: #2c3e50;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.navbar-title .title-text p{
+    font-size: 10px;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    width: 50%;
+    transition: all 0.3s ease;
+}
+.navbar-title .title-text p::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background: #f1c40f; /* Vibrant Yellow color */
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+.navbar-title .title-text p:hover {
+    color: #e74c3c; /* Creative Red color on hover */
+}
+
+.navbar-title .title-text p:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+
+/* .navbar-title .title-text p:hover{
+    text-decoration: underline;
+} */
+@media screen and (max-width:768px) {
+    .navbar-title {
+        font-size: 20px;
+    }
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: #2c3e50;
+}
+
+.navbar-nav-item {
+    margin-right: 20px;
+}
+
+/* Colorful and creative text effects for navigation items */
+.navbar-nav-item a {
+    text-decoration: none;
+    color: #f1c40f; /* Vibrant Yellow color */
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s ease;
+    background-color: #2c3e50;
+}
+
+.navbar-nav-item a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background: #f1c40f; /* Vibrant Yellow color */
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.navbar-nav-item a:hover {
+    color: #e74c3c; /* Creative Red color on hover */
+}
+
+.navbar-nav-item a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Background color for the active page */
+.navbar-nav-item.active a {
+    background-color: #e74c3c; /* Dark Red background for active item */
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #fff; /* White text for active item */
+}
+/* Mobile styles (for screens up to 768px wide) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .navbar-title {
+        margin: 0;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav-item {
+        margin: 5px;
+    }
+    .navbar-nav-item a{
+        font-size: 15px;
+    }
+}
+
+/* Styling for the test container section */
+.test-container {
+    background-color: #1e272e; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 10px; /* Decreased padding */
+    text-align: center;
+    border-radius: 10px; /* Smaller border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lighter box shadow */
+    margin: 10px; /* Decreased margin */
+    display: none;
+}
+
+/* Styling for the section title */
+.section-title {
+    background-color: #e74c3c; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 10px; /* Decreased padding */
+    font-size: 28px; /* Smaller font size */
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Decreased margin */
+}
+
+/* Styling for the test number buttons */
+.test-number-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testBtn {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Decreased padding */
+    font-size: 16px; /* Smaller font size */
+    border: none;
+    border-radius: 8px; /* Smaller border radius */
+    margin: 8px; /* Decreased margin */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.testBtn:hover {
+    background-color: #DA0037; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scale on hover for a playful effect */
+}
+/* Mobile styles - apply these styles for screens up to 768px wide (adjust as needed) */
+@media screen and (max-width: 768px) {
+    .test-container {
+        padding: 5px; /* Smaller padding for mobile */
+        margin: 5px; /* Smaller margin for mobile */
+    }
+    .testBtn {
+        padding: 8px 16px; /* Smaller button padding for mobile */
+        font-size: 14px; /* Smaller font size for mobile */
+        margin: 6px; /* Smaller margin for mobile */
+    }
+}
+
+/* Styling for the analogy container */
+.section-title{
+    width: 90%;
+    margin: 0 auto;
+}
+#hide{
+    display: none;
+    margin-bottom: 10px;
+}
+.section-title h1{
+    text-align: center;
+    font-size: 27px;
+}
+.new-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.section-title .printBtn{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 100px;
+    background-color: #b5032f;
+    color: #fff;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.section-title .printBtn:hover{
+    background-color: #900427;
+}
+
+/* Mobile styles - apply these styles for screens up to 768px wide (adjust as needed) */
+@media screen and (max-width: 768px) {
+    .section-title {
+        padding: 10px; /* Keep the title padding slightly larger */
+    }
+    .section-title h1 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+.analogy-container{
+    width: 100%;
+}
+.analogy-contents {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+@media screen and (max-width:768px) {
+    .analogy-contents{
+        grid-template-columns: 100%;
+    }
+}
+/* Styling for each analogy card */
+.analogy {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin-bottom: 10px;
+}
+
+.analogy:hover {
+    transform: scale(1.02);
+}
+
+.analogy h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Styling for radio inputs and labels */
+.analogy .options input[type="radio"] {
+    position: relative;
+    padding: 5px;
+}
+.analogy .options input[type="radio"]::before {
+    position: absolute;
+    content: attr(value);
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: #171717;
+    width: 20px;
+    height: 20px;
+    top: -1px;
+    left: -3px;
+    text-align: center;
+}
+
+/* Change the border color and background color of the pseudo-element when the input is checked */
+.analogy .options input[type="radio"]:checked::before {
+    border-color: #DA0037; /* Border color when checked */
+    background-color: #DA0037; /* Background color when checked */
+    color: #fff; /* Text color when checked */
+}
+
+/* Change the background color of the label when the input is checked */
+.analogy .options input[type="radio"]:checked + label {
+    background-color: #DA0037; /* Background color when checked */
+    color: #fff; /* Text color when checked */
+}
+
+.analogy .options label,
+.analogy .options input {
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 5px 5px 5px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 3px;
+}
+
+.analogy .options label:hover {
+    background-color: #DA0037;
+}
+
+.analogy .options label {
+    margin-left: 10px;
+    position: relative;
+}
+
+.analogy .options .wrong-answer::after {
+    content: "\00D7";
+    position: absolute;
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 5px;
+    color: red;
+    font-weight: bolder;
+}
+
+.analogy .explanation{
+    margin: 3px;
+    padding: 5px 10px;
+    text-align: justify;
+    background: #DA0037;
+    border-radius: 5px;
+}
+
+.submintBtn-container{
+    width: 97%;
+    padding: 20px;
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submintBtn-container button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #DA0037;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    transition: background 0.5s ease;
+    cursor: pointer;
+}
+
+
+/* Style for the tooltip */
+label[for]::after {
+    content: "Disabled";
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 0px 4px 3px 4px;
+    background-color: #f1c40f;
+    color: #495E57;
+    border-radius: 4px;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+/* Show the tooltip on hover */
+input[type="radio"]:disabled + label:hover::after {
+    display: block;
+}
+
+
+.submintBtn-container button:hover{
+    background-color: #900427;
+}
+
+@media screen and (max-width:768px) {
+    .submintBtn-container{
+        width: 90%;
+    }
+}
+
+/* Style for the entire user manual */
+.Instructions {
+    background-color: #1e272e; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding around the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+}
+.ins-content{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.ins-content div{
+    padding-left: 20px;
+}
+.Instructions h1 {
+    font-size: 24px; /* Larger title font size */
+    border-bottom: 2px solid #3498db; /* Blue underline for the title */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.Instructions h2 {
+    font-size: 18px;
+    color: #999;
+    margin-top: 20px;
+}
+
+/* Style for paragraphs and list items */
+.Instructions p, .Instructions li {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.Instructions li:hover {
+    color: #3498db; /* Blue text color on hover */
+}
+
+/* Style for ordered lists */
+.Instructions ol {
+    list-style: decimal inside;
+    padding-left: 20px;
+}
+
+/* Style for links */
+.Instructions a {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px dashed #007bff;
+}
+
+/* Style for links on hover */
+.Instructions a:hover {
+    color: #0056b3;
+    border-bottom: 1px dashed #0056b3;
+}
+
+
+.obtainMark{
+    background: #DA0037;
+    border-radius: 6px;
+}
+
+@media screen and (max-width:768px) {
+    .Instructions h1 {
+        font-size: 22px; /* Larger title font size */
+    }
+    .ins-content{
+        width: 90%;
+    }
+    .ins-content div{
+        padding-left: 0px;
+    }
+}
+
+
+/* table style */
+.answer-table-container{
+    min-height: 600px;
+}
+#answerTable {
+  width: 98%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #fff;
+  table-layout: fixed;
+  /* Add a subtle animation on hover */
+  transition: background-color 0.3s ease;
+}
+
+#answerTable th, #answerTable td {
+  padding: 10px;
+  text-align: left;
+  color: #ecf0f1;
+  border-right: 1px solid #fff;
+}
+
+#answerTable th {
+  background-color: #2980b9; 
+  text-align: center;
+}
+#answerTable th:last-child {
+    border-right: none;
+}
+#answerTable td {
+    border-bottom: 1px solid #fff;
+    text-align: justify;
+}
+#answerTable tr:last-child {
+    border-bottom: none;
+}
+
+/* Add hover effect on table rows */
+#answerTable tr:hover {
+  background-color: #DA0037; /* Hover background color */
+  transition: background-color 0.3s ease;
+}
+
+/* Add a subtle animation on table rows */
+#answerTable tr {
+  transition: background-color 0.3s ease;
+}
+
+#answerTable .bold{
+    font-weight: bolder;
+}
+/* Set the column widths with the desired ratio */
+#answerTable th:nth-child(1),
+#answerTable td:nth-child(1) {
+  width: 5%;
+}
+
+#answerTable th:nth-child(2),
+#answerTable td:nth-child(2) {
+  width: 20%;
+}
+
+#answerTable th:nth-child(3),
+#answerTable td:nth-child(3) {
+  width: 25%;
+}
+
+#answerTable th:nth-child(4),
+#answerTable td:nth-child(4) {
+  width: 50%;
+}
+
+/* Style the unordered lists inside table cells */
+#answerTable ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#answerTable ol li {
+  padding: 2px;
+}
+
+/* Add a hover effect to list items */
+#answerTable ol li:hover {
+  background-color: #900427; /* Hover background color for list items */
+}
+
+/* Mobile-friendly styles */
+@media (max-width: 767px) {
+  #answerTable th,
+  #answerTable td {
+    width: 100%;
+  }
+  #answerTable ol {
+    margin: 0;
+    padding-left: 3px;
+  }
+
+  #answerTable th {
+    text-align: center;
+  }
+  #answerTable td {
+    font-size: 11px;
+  }
+}
+
+
+
+
+
+/* styles.css */
+#printSettings {
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+#printSettings h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#printSettings .orientation{
+    margin-top: 10px;
+}
+
+#printSettings label {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+#printSettings select, #printSettings input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#printSettings input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #DA0037;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#printSettings input[type="radio"]:checked {
+    background-color: #DA0037;
+}
+
+.floatDiv {
+    position: fixed;
+    top: 40%;
+    right: 0;
+    padding: 10px 2px;
+    border-radius: 10px 0 0 10px;
+    background-color: #DA0037;
+    writing-mode: vertical-lr; /* Vertical text writing mode for compatibility */
+}
+
+.floatDiv a {
+    color: #fff;
+    text-decoration: none;
+}
+.floatDiv a:hover{
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer content */
+    padding: 5px 20px; /* Add some padding for spacing */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+footer .credit {
+    text-align: left; /* Align credit text to the left */
+}
+
+footer a {
+    color: #fff; /* Style links in the explore apps section */
+    text-decoration: none; /* Remove underline from links */
+
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+footer .poweredBy{
+    display: block;
+    
+}
+/* Mobile styles using media query (adjust max-width as needed) */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center content vertically */
+        padding: 10px; /* Increase padding for better spacing on mobile */
+    }
+
+    footer .credit {
+        text-align: center; /* Center credit text on mobile */
+        padding-left: 0; /* Remove left padding */
+    }
+
+    footer .poweredBy {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for the modal container */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+
+/* Styles for the modal content */
+.modal-content {
+    margin: 15% auto;
+    width: 60%;
+    transition: transform 0.3s ease;
+    transform: scale(0);
+    border-radius: 10px;
+}
+
+/* Styles for the modal header */
+.modal-header {
+    padding: 10px 20px;
+    background-color: #DA0037;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Styles for the modal body */
+.modal-body {
+    padding: 10px 20px;
+    background-color: #1D5B79;
+}
+.modal-body .resultSummary li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #fff;
+}
+.modal-body .resultSummary span{
+    font-size: 17px;
+    padding: 5px;
+    font-weight: 900;
+}
+.underline{
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+.modal-body ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* Add CSS to style the table */
+.modal-body table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.modal-body th,
+.modal-body td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+
+.modal-body tr:nth-child(even) {
+    background-color: rgb(51, 152, 219, 0.5)
+}
+
+.modal-body tr:hover {
+    background-color: #900427;
+}
+
+.modal-body a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.modal-body a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the modal footer */
+.modal-footer {
+    padding: 7px 25px;
+    background-color: #fba54f;
+    color: #fff;
+    text-align: right;
+    border-radius: 0 0 10px 10px;
+}
+
+.modal-footer button{
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    background-color: #1D5B79;
+    color: #fff;
+    border-radius: 10px;
+    width: auto;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.modal-footer button:hover{
+    background-color: #DA0037;
+}
+
+/* Close button style */
+.close {
+    float: right;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .modal-content{
+        width: 85%;
+    }
+}
+
+
+
+.loader-container {
+    display: none; /* Initially hide the loader container */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97, 96, 96, 0.7); /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Adjust the z-index as needed to ensure it's above other elements */
+}
+
+.loader {
+    border: 8px solid #b5032f; /* Light gray */
+    border-top: 8px solid #1e272e; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favIcon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favIcon/favicon-16x16.png">
+
+
+    <title>Analogy Test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Navigation bar -->
+<div class="navbar">
+    <div class="navbar-title">
+        <img src="img/brainstroming.png" alt="" srcset="">
+         <div class="title-text">
+            <h1>Analogy Test</h1>
+            <p id="parent-company">By BcsBankSuccess.com</p>
+         </div>
+    </div>
+    <ul class="navbar-nav">
+        <li class="navbar-nav-item"><a href="index.html">Home</a></li>
+        <li class="navbar-nav-item"><a href="#" class="test-link" data-start="1" data-end="10">Test 1-10</a></li>
+        <li class="navbar-nav-item"><a href="#" class="test-link" data-start="11" data-end="20">Test 11-20</a></li>
+        <li class="navbar-nav-item"><a href="#" class="test-link" data-start="21" data-end="30">Test 21-30</a></li>
+    </ul>
+</div>
+
+<div class="main-container">
+    <section class="test-container">
+        <div class="section-title"><h1>Test (1-10)</h1></div>
+        <div class="test-number-container">
+
+        </div>
+    </section>
+</div>
+
+<section class="table-container">
+    <div class="section-title new-title" id="hide">
+        <h1>Answer Table For Test</h1>
+        <button type="button" class="printBtn" id="printButton">Print</button>
+    </div>
+    <div class="answer-table-container">
+        
+    </div>
+</section>
+
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+            <!-- <div id="printSettings">
+                <h2>Print Settings</h2>
+                <form>
+                    <label for="margin">Margin (mm):</label>
+                    <select id="margin" name="margin">
+                        <option value="0.3">0.3mm</option>
+                        <option value="0.5">0.5mm</option>
+                        <option value="1">1mm</option>
+                        <option value="3">3mm</option>
+                        <option value="5">5mm</option>
+                        <option value="10">10mm</option>
+                    </select>
+                    <br>
+            
+                    <label for="paperSize">Paper Size:</label>
+                    <select id="paperSize" name="paperSize">
+                        <option value="a4">A4</option>
+                        <option value="letter">Letter</option>
+                        <option value="legal">Legal</option>
+                    </select>
+                    <br>
+            
+                    <label for="orientation">Page Orientation:</label>
+                    <input type="radio" id="portrait" name="orientation" value="portrait" checked>
+                    <label for="portrait">Portrait</label>
+                    <input type="radio" id="landscape" name="orientation" value="landscape">
+                    <label for="landscape">Landscape</label>
+                    <br>
+            
+                    <input type="button" value="Apply Settings" onclick="applyPrintSettings()">
+                </form>
+            </div> -->
+            
+        </div>
+        <div class="modal-footer">
+            <button id="closeModalBtn">Close</button>
+        </div>
+    </div>
+</div>
+<div class="floatDiv">
+    <div class="explore-apps">
+        <a href="#">Explore Other Apps</a>
+    </div>
+</div>
+
+<footer>
+    <div class="credit">
+        <p>All Rights Reserved by <a href="index.html">AnalogyTest</a> &copy; <span id="currentYear"></span></p>
+    </div>
+    <div class="poweredBy">
+        <p>Powered By</p>
+        <h3><a href="#">BcsBankSuccess.Com</a></h3>
+    </div>
+</footer>
+
+
+
+
+
+<div class="loader-container">
+    <div class="loader"></div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/vfs_fonts.js"></script>
+
+<script type="module" src="js/printAnswer.js"></script>
+</body>
+</html>

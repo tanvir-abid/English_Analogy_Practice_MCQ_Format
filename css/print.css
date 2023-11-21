@@ -1,0 +1,154 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* styles.css */
+.centered {
+    text-align: center;
+}
+
+.watermark {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    transform: rotate(-45deg);
+    font-size: 40px;
+    color: lightgray;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+/* table style */
+#answerTable {
+  width: 98%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  table-layout: fixed;
+  /* Add a subtle animation on hover */
+  transition: background-color 0.3s ease;
+}
+
+#answerTable th, #answerTable td {
+  padding: 10px;
+  text-align: left;
+  color: #000;
+  border-right: 1px solid #000;
+}
+
+#answerTable th {
+  background-color: #2980b9; 
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+#answerTable th:last-child {
+    border-right: none;
+}
+#answerTable td {
+    border-bottom: 1px solid #000;
+    text-align: justify;
+}
+#answerTable tr:last-child {
+    border-bottom: none;
+}
+
+/* Add hover effect on table rows */
+#answerTable tr:hover {
+  background-color: #eee; /* Hover background color */
+  transition: background-color 0.3s ease;
+}
+
+/* Add a subtle animation on table rows */
+#answerTable tr {
+  transition: background-color 0.3s ease;
+}
+
+/* Set the column widths with the desired ratio */
+#answerTable th:nth-child(1),
+#answerTable td:nth-child(1) {
+  width: 5%;
+}
+
+#answerTable th:nth-child(2),
+#answerTable td:nth-child(2) {
+  width: 20%;
+}
+
+#answerTable th:nth-child(3),
+#answerTable td:nth-child(3) {
+  width: 25%;
+}
+
+#answerTable th:nth-child(4),
+#answerTable td:nth-child(4) {
+  width: 50%;
+}
+
+/* Style the unordered lists inside table cells */
+#answerTable ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#answerTable ol li {
+  padding: 2px;
+}
+
+#answerTable .bold{
+  font-weight: bolder;
+}
+/* Add a hover effect to list items */
+#answerTable ol li:hover {
+  background-color: #999; /* Hover background color for list items */
+}
+
+
+footer {
+  background-color: #eee; /* Background color for the footer */
+  color: #000; /* Text color for the footer content */
+  padding: 5px 10px; /* Add some padding for spacing */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+footer .credit {
+  text-align: left; /* Align credit text to the left */
+}
+
+footer a {
+  color: #000; /* Style links in the explore apps section */
+  text-decoration: none; /* Remove underline from links */
+
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+footer .poweredBy{
+  display: flex;
+    align-items: center;
+    gap: 10px;
+  
+}
+/* Mobile styles using media query (adjust max-width as needed) */
+@media (max-width: 768px) {
+  footer {
+      flex-direction: column; /* Stack content vertically */
+      align-items: center; /* Center content vertically */
+      padding: 10px; /* Increase padding for better spacing on mobile */
+  }
+
+  footer .credit {
+      text-align: center; /* Center credit text on mobile */
+      padding-left: 0; /* Remove left padding */
+  }
+
+  footer .poweredBy {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+  }
+}

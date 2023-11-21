@@ -1,0 +1,730 @@
+{
+  "Test_1": [
+      {
+        "question": "SEDATIVE : DROWSINESS",
+        "option1": "epidemic: contagiousness",
+        "option2": "vaccine: virus",
+        "option3": "laxative: drug",
+        "option4": "anesthetic: numbness",
+        "option5": "therapy: psychosis",
+        "correctOption": "d",
+        "explanation": "Sedative (ঘুমের ঔষধ) দ্বারা যেমন Drowsiness (ঘুম ঘুম ভাব) আসে' ঠিক তেমনি Anesthetic (অবশ করার ঔষধ) দ্বারা Numbness (অবশতা) বা অবশ হয় ।"
+      },
+      {
+        "question": "LAWYER : COURTROOM",
+        "option1": "participant: team",
+        "option2": "commuter: train",
+        "option3": "gladiator: arena",
+        "option4": "senator: caucus",
+        "option5": "patient: ward",
+        "correctOption": "a",
+        "explanation": "A lawyer is typically associated with a courtroom, just as a participant is associated with a team.Lawyer-এর কাজের জায়গা হচ্ছে Courtroom, আর Gladiator এর যুদ্ধের জায়গা Arena. বা, Courtroom (আদালত) যেমন Lawyer (আইনজীবী) এর কাজের স্থান; তেমনি Gladiator (প্রাচীন রোমের পেশাদার মল্লযোদ্ধা) এর কাজের স্থান হলো Arena (রণক্ষেত্র)।"
+      },
+    {
+      "question": "CURIOSITY : KNOW ",
+      "option1": "temptation: conquer",
+      "option2": "starvation: eat",
+      "option3": "wanderlust: travel",
+      "option4": "humor: laugh",
+      "option5": "survival: live",
+      "correctOption": "c",
+      "explanation": "Curiosity is to knowing as wanderlust is to traveling. Curiosity মানে (Know) জানার পিপাসা বা আকাঙ্খা; আর Wanderlust (ভ্রমণ পিপাসা) মানে (Travel) ভ্রমণ এর আকাঙ্খা ।"
+    },
+    {
+        "question": "FRUGAL: MISERLY",
+        "option1": "confident: arrogant",
+        "option2": "courageous: pugnacious",
+        "option3": "famous: aggressive",
+        "option4": "rash: foolhardy",
+        "option5": "quite: timid",
+        "correctOption": "d",
+        "explanation": "Frugal is to miserly as rash is to foolhardy."
+    },
+    {
+        "question": "ANTIDOTE: POISON",
+        "option1": "cure: recovery",
+        "option2": "narcotic: sleep",
+        "option3": "stimulant: relapse",
+        "option4": "tonic: lethargy",
+        "option5": "resuscitation: breathing",
+        "correctOption": "a",
+        "explanation": "An antidote is to poison as a cure is to recovery."
+    },
+    {
+        "question": "STYGIAN: DARK",
+        "option1": "abysmal: low",
+        "option2": "cogent: contentious",
+        "option3": "fortuitous: accidental",
+        "option4": "reckless: threatening",
+        "option5": "cataclysmic: doomed",
+        "correctOption": "a",
+        "explanation": "Stygian is to dark as abysmal is to low."
+    },
+    {
+        "question": "WORSHIP: SACRIFICE",
+        "option1": "generation: pyre",
+        "option2": "burial: mortuary",
+        "option3": "weapon: centurion",
+        "option4": "massacre: invasion",
+        "option5": "prediction: augury",
+        "correctOption": "d",
+        "explanation": "Worship is to sacrifice as massacre is to invasion."
+    },
+    {
+        "question": "EVANESCENT: DISAPPEAR",
+        "option1": "transparent: penetrate",
+        "option2": "onerous: struggle",
+        "option3": "feckless: succeed",
+        "option4": "illusory: exist",
+        "option5": "pliant: yield",
+        "correctOption": "d",
+        "explanation": "Evanescent is to disappear as illusory is to exist."
+    },
+    {
+        "question": "UPBRAID: REPROACH",
+        "option1": "dote: like",
+        "option2": "lag: stray",
+        "option3": "vex: please",
+        "option4": "earn: desire",
+        "option5": "recast: explain",
+        "correctOption": "c",
+        "explanation": "Upbraid is to reproach as vex is to please."
+    },
+    {
+        "question": "FRAGILE: BREAK",
+        "option1": "invisible: see",
+        "option2": "erratic: control",
+        "option3": "flammable: burn",
+        "option4": "noxious: escape",
+        "option5": "industrial: manufacture",
+        "correctOption": "c",
+        "explanation": "Fragile is to break as flammable is to burn."
+    },
+    {
+        "question": "MUTTER: INDISTINCT",
+        "option1": "demand: obedient",
+        "option2": "plead: obligatory",
+        "option3": "flatter: commendable",
+        "option4": "drone: monotonous",
+        "option5": "confirm: proven",
+        "correctOption": "d",
+        "explanation": "Mutter is to indistinct as drone is to monotonous."
+    },
+    {
+        "question": "FAULTFINDER: CRITICIZE",
+        "option1": "luminary: obedient",
+        "option2": "athlete: cheer",
+        "option3": "arbitrator: mediate",
+        "option4": "pharmacist: prescribe",
+        "option5": "dawdler: toil",
+        "correctOption": "c",
+        "explanation": "Faultfinder is to criticize as arbitrator is to mediate."
+    },
+    {
+        "question": "PEST: IRKSOME",
+        "option1": "salesclerk: courteous",
+        "option2": "expert: proficient",
+        "option3": "enigma: unexpected",
+        "option4": "leader: nondescript",
+        "option5": "accuser: indicted",
+        "correctOption": "b",
+        "explanation": "Pest is to irksome as expert is to proficient."
+    },
+    {
+        "question": "PROLOGUE: NOVEL",
+        "option1": "preamble: statute",
+        "option2": "sketch: drawing",
+        "option3": "movement: symphony",
+        "option4": "index: book",
+        "option5": "blueprint: building",
+        "correctOption": "a",
+        "explanation": "Prologue is to novel as preamble is to statute."
+    },
+    {
+        "question": "EXPAND: VOLUME",
+        "option1": "ascend: fight",
+        "option2": "proliferate: number",
+        "option3": "bend: flexibility",
+        "option4": "cool: temperature",
+        "option5": "deflect: heading",
+        "correctOption": "b",
+        "explanation": "Expand is to volume as proliferate is to number."
+    },
+    {
+        "question": "CONTIGUOUS: ABUT",
+        "option1": "possible: occur",
+        "option2": "simultaneous: coincide",
+        "option3": "comprehensive: expect",
+        "option4": "synthetic: create",
+        "option5": "constant: stabilize",
+        "correctOption": "b",
+        "explanation": "Contiguous is to abut as simultaneous is to coincide."
+    },
+    {
+        "question": "PROHIBITIVE: PURCHASE",
+        "option1": "preventive: heal",
+        "option2": "laudatory: praise",
+        "option3": "admonitory: fear",
+        "option4": "peremptory: dispute",
+        "option5": "imperative: comply",
+        "correctOption": "c",
+        "explanation": "Prohibitive is to purchase as admonitory is to fear."
+    }        
+  ],
+
+  "Test_2": [
+    {
+        "question": "JUDGE: GAVEL",
+        "option1": "detective: uniform",
+        "option2": "doctor: stethoscope",
+        "option3": "referee: whistle",
+        "option4": "soldier: insignia",
+        "option5": "lecture: podium",
+        "correctOption": "c",
+        "explanation": "Judge is to gavel as referee is to whistle."
+      },
+      {
+        "question": "ORGAN: KIDNEY",
+        "option1": "skeleton: kneecap",
+        "option2": "bone: rib",
+        "option3": "neuron: synapse",
+        "option4": "abdomen: stomach",
+        "option5": "blood: aorta",
+        "correctOption": "b",
+        "explanation": "Organ is to kidney as bone is to rib."
+      },
+      {
+        "question": "SOOT: COMBUSTION",
+        "option1": "lint: brushing",
+        "option2": "gravel: crushing",
+        "option3": "gristle: tenderizing",
+        "option4": "rubbish: housecleaning",
+        "option5": "sawdust: woodcutting",
+        "correctOption": "e",
+        "explanation": "Soot is to combustion as lint is to brushing."
+      },
+      {
+        "question": "PURIFY: IMPERFECTION",
+        "option1": "align: adjustment",
+        "option2": "weary: boredom",
+        "option3": "disagree: controversy",
+        "option4": "verify: doubtfulness",
+        "option5": "hone: sharpness",
+        "correctOption": "d",
+        "explanation": "Purify is to imperfection as verify is to doubtfulness."
+      },
+      {
+        "question": "CENTRIFUGE: SEPARATE",
+        "option1": "thermometer: calibrate",
+        "option2": "statue: chisel",
+        "option3": "floodgate: overflow",
+        "option4": "colander: drain",
+        "option5": "television: transmit",
+        "correctOption": "d",
+        "explanation": "Centrifuge is to separate as colander is to drain."
+      },
+      {
+        "question": "MOCK: IMITATE",
+        "option1": "Satirize: Charm",
+        "option2": "Condense: Summarize",
+        "option3": "Placate: Assuage",
+        "option4": "Adapt: Duplicate",
+        "option5": "Taunt: Challenge",
+        "correctOption": "e",
+        "explanation": "Mock is to imitate as Condense is to summarize."
+      },
+      {
+        "question": "MALADROIT: SKILL",
+        "option1": "intemperate: anger",
+        "option2": "unreasonable: intuition",
+        "option3": "sluggish: fatigue",
+        "option4": "glib: profoundity",
+        "option5": "morose: depression",
+        "correctOption": "d",
+        "explanation": "Maladroit is to skill as glib is to profoundity."
+      },
+      {
+        "question": "EQUIVOCATION: AMBIGUOUS",
+        "option1": "mitigation: serve",
+        "option2": "contradiction: peremptory",
+        "option3": "platitude: banal",
+        "option4": "explanation: unintelligible",
+        "option5": "precept: obedient",
+        "correctOption": "c",
+        "explanation": "Equivocation is to ambiguous as platitude is to banal."
+      },
+      {
+        "question": "VOLATILE: TEMPER",
+        "option1": "prominent: notoriety",
+        "option2": "ready: wait",
+        "option3": "catastrophic: disaster",
+        "option4": "gentle: heart",
+        "option5": "expressive: song",
+        "correctOption": "b",
+        "explanation": "Volatile is to temper as expressive is to song."
+      },
+      {
+        "question": "SURGEON: DEXTERITY",
+        "option1": "engineer: clarity",
+        "option2": "sailor: navigation",
+        "option3": "magistrate: precedent",
+        "option4": "industrial: capital",
+        "option5": "acrobat: agility",
+        "correctOption": "e",
+        "explanation": "Surgeon is to dexterity as acrobat is to agility."
+      },
+      {
+        "question": "PRUNE: HEDGE",
+        "option1": "shuck: corn",
+        "option2": "hair: trim",
+        "option3": "cut: bouquet",
+        "option4": "reap: crop",
+        "option5": "shave: mustache",
+        "correctOption": "b",
+        "explanation": "Prune is to hedge as hair is to trim."
+      },
+      {
+        "question": "PHOTOGRAPH: LIGHT",
+        "option1": "script: scene",
+        "option2": "film: negative",
+        "option3": "recording: sound",
+        "option4": "rehearsal: sound",
+        "option5": "concert: song",
+        "correctOption": "c",
+        "explanation": "Photograph is to light as recording is to sound."
+      },
+      {
+        "question": "ANTIBIOTIC: INFECTION",
+        "option1": "hormone: modification",
+        "option2": "enzyme: digestion",
+        "option3": "narcotic: dependency",
+        "option4": "coagulant: bleeding",
+        "option5": "stimulant: relaxation",
+        "correctOption": "d",
+        "explanation": "Antibiotic is to infection as enzyme is to digestion."
+      },
+      {
+        "question": "EULOGY: PRAISE",
+        "option1": "comedy: laughter",
+        "option2": "epic: contempt",
+        "option3": "tirade: awe",
+        "option4": "elegy: lament",
+        "option5": "parody: respect",
+        "correctOption": "d",
+        "explanation": "Eulogy is to praise as elegy is to lament."
+      },
+      {
+        "question": "DAMP: VIBRATION",
+        "option1": "drench: moisture",
+        "option2": "concentrate: extraction",
+        "option3": "boil: liquid",
+        "option4": "seal: perforation",
+        "option5": "stanch: flow",
+        "correctOption": "e",
+        "explanation": "Damp is to vibration as concentrate is to extraction."
+      },
+      {
+        "question": "ABRADED: FRICTION",
+        "option1": "refined: distillate",
+        "option2": "anodized: metal",
+        "option3": "diluted: gas",
+        "option4": "strengthened: pressure",
+        "option5": "vaporized: heat",
+        "correctOption": "e",
+        "explanation": "Abraded is to friction as refined is to distillate."
+      },
+      {
+        "question": "QUARRY: STONE",
+        "option1": "fell: timber",
+        "option2": "dredge: canal",
+        "option3": "assay: gold",
+        "option4": "bale: hay",
+        "option5": "mold: clay",
+        "correctOption": "a",
+        "explanation": "Quarry is to stone as mold is to clay."
+      },
+      {
+        "question": "CREDULOUS: DUPE",
+        "option1": "wealthy: monarch",
+        "option2": "insensitive: boor",
+        "option3": "argumentative: lawyer",
+        "option4": "spontaneous: extrovert",
+        "option5": "extravagant: miser",
+        "correctOption": "b",
+        "explanation": "Credulous is to dupe as insensitive is to boor."
+      }
+],
+"Test_3":[
+  {
+    "question": "ANIMAL: CAT",
+    "option1": "apple: pear",
+    "option2": "club: player",
+    "option3": "furniture: chair",
+    "option4": "landscape: tree",
+    "option5": "body: toe",
+    "correctOption": "c",
+    "explanation": "Animal is to cat as furniture is to chair."
+  },
+  {
+    "question": "CURTAIN: STAGE",
+    "option1": "footlight: orchestra",
+    "option2": "lid: jar",
+    "option3": "upholstery: sofa",
+    "option4": "veil: face",
+    "option5": "screen: film",
+    "correctOption": "d",
+    "explanation": "Curtain is to stage as veil is to face."
+  },
+  {
+    "question": "INSOMNIA: SLEEP",
+    "option1": "dyslexia: read",
+    "option2": "hemophilia: bleed",
+    "option3": "hyperactivity: move",
+    "option4": "paranoia: hallucinate",
+    "option5": "malnutrition: eat",
+    "correctOption": "a",
+    "explanation": "Insomnia is to sleep as dyslexia is to read."
+  },
+  {
+    "question": "JEER: DERISION",
+    "option1": "fidget: restraint",
+    "option2": "cower: menace",
+    "option3": "slouch: vigilance",
+    "option4": "reprimand: censure",
+    "option5": "frown: adversity",
+    "correctOption": "d",
+    "explanation": "Jeer is to derision as reprimand is to censure."
+  },
+  {
+    "question": "HUMILITY: SUPPLICANT",
+    "option1": "espionage: felon",
+    "option2": "dilettantism: connoisseur",
+    "option3": "dogmatism: scholar",
+    "option4": "gregariousness: teammate",
+    "option5": "resistance: adversary",
+    "correctOption": "e",
+    "explanation": "Humility is to supplicant as resistance is to adversary."
+  },
+  {
+    "question": "INTEREST: INVEIGLE",
+    "option1": "evaluate: suggest",
+    "option2": "foresee: predict",
+    "option3": "plan: scheme",
+    "option4": "interpret: examine",
+    "option5": "neglect: persecute",
+    "correctOption": "e",
+    "explanation": "Interest is to inveigle as neglect is to persecute."
+  },
+  {
+    "question": "BARTER: COMMODITIES",
+    "option1": "arbitrate: suggest",
+    "option2": "invade: boundaries",
+    "option3": "debate: issues",
+    "option4": "correspond: letters",
+    "option5": "promote: ranks",
+    "correctOption": "d",
+    "explanation": "Barter is to commodities as correspond is to letters."
+  },
+  {
+    "question": "PARRY: QUESTION",
+    "option1": "return: affection",
+    "option2": "shirk: duty",
+    "option3": "confront: dread",
+    "option4": "hurl: insult",
+    "option5": "surrender: temptation",
+    "correctOption": "b",
+    "explanation": "Parry is to question as shirk is to duty."
+  },
+  {
+    "question": "DISGUISE: IDENTIFICATION",
+    "option1": "equivocation: ambiguity",
+    "option2": "façade: decoration",
+    "option3": "forgery: wealth",
+    "option4": "camouflage: detection",
+    "option5": "manipulation: advantage",
+    "correctOption": "d",
+    "explanation": "Disguise is to identification as camouflage is to detection."
+  },
+  {
+    "question": "BIRD: FEATHERS",
+    "option1": "mammal: spine",
+    "option2": "hand: fingers",
+    "option3": "branch: fruit",
+    "option4": "limb: fur",
+    "option5": "fish: scales",
+    "correctOption": "e",
+    "explanation": "Bird is to feathers as fish is to scales."
+  },
+  {
+    "question": "ELBOW: JOINT",
+    "option1": "cell: tissue",
+    "option2": "corpuscle: blood",
+    "option3": "muscle: bone",
+    "option4": "skull: skeleton",
+    "option5": "heart: organ",
+    "correctOption": "e",
+    "explanation": "Elbow is to joint as heart is to organ."
+  },
+  {
+    "question": "ENDOW: INCOME",
+    "option1": "emit: signal",
+    "option2": "endorse: approval",
+    "option3": "enchant: magic",
+    "option4": "embark: voyage",
+    "option5": "endure: hardships",
+    "correctOption": "e",
+    "explanation": "Endow is to income as endure is to hardships."
+  },
+  {
+    "question": "BOMBAST: POMPOUS",
+    "option1": "prose: economical",
+    "option2": "circumlocution: patient",
+    "option3": "prattle: succinct",
+    "option4": "verbiage: mundane",
+    "option5": "tirade: critical",
+    "correctOption": "c",
+    "explanation": "Bombast is to pompous as prattle is to succinct."
+  },
+  {
+    "question": "CARET: INSERTION",
+    "option1": "pound: heaviness",
+    "option2": "tongs: extraction",
+    "option3": "comma: pause",
+    "option4": "quotation: agreement",
+    "option5": "clip: attachment",
+    "correctOption": "e",
+    "explanation": "Caret is to insertion as clip is to attachment."
+  },
+  {
+    "question": "OPAQUE: LIGHT",
+    "option1": "inaudible: sound",
+    "option2": "unbreakable: plastic",
+    "option3": "reflective: mirror",
+    "option4": "nonporous: liquid",
+    "option5": "viscous: fluid",
+    "correctOption": "c",
+    "explanation": "Opaque is to light as reflective is to mirror."
+  },
+  {
+    "question": "FEARLESS: DAUNT",
+    "option1": "perplexed: enlighten",
+    "option2": "nondescript: neglect",
+    "option3": "avaricious: motivate",
+    "option4": "impassive: perturb",
+    "option5": "tranquil: pacify",
+    "correctOption": "d",
+    "explanation": "Fearless is to daunt as impassive is to perturb."
+  },
+  {
+    "question": "QUERULOUS: COMPLAIN",
+    "option1": "humble: fawn",
+    "option2": "prodigal: spend",
+    "option3": "treacherous: trust",
+    "option4": "laconic: talk",
+    "option5": "culpable: blame",
+    "correctOption": "d",
+    "explanation": "Querulous is to complain as laconic is to talk."
+  }
+],
+
+"Test_4":[
+  {
+    "question": "DRAWBRIDGE: CASTLE",
+    "option1": "lawn: house",
+    "option2": "aisle: stage",
+    "option3": "sidewalk: garage",
+    "option4": "gangway: ship",
+    "option5": "hallway: building",
+    "correctOption": "d",
+    "explanation": "A drawbridge is used to access a castle, similar to how a gangway is used to access a ship. Castle (দূর্গ) এ ঢোকার রাস্তাকে Drawbridge যেটা টেনে তোলা যায়; আর ship এ ঢোকার রাস্তাকে Gangway বলে যেটা টেনে তোলা যায় ।"
+  },
+  {
+    "question": "INSULIN: PANCREAS",
+    "option1": "bile: liver",
+    "option2": "oxygen: heart",
+    "option3": "vanilla: bean",
+    "option4": "menthol: eucalyptus",
+    "option5": "honey: bee",
+    "correctOption": "a",
+    "explanation": "Insulin is produced by the pancreas, similar to how bile is produced by the liver. Pancreas (অগ্নাশয়) থেকে Insulin (ইনসুলিন) নিঃসৃত হয়; আর Liver (যকৃত) থেকে Bile (পিত্ত) নিঃসৃত হয়।    "
+  },
+  {
+    "question": "EAGLE: TALON",
+    "option1": "fang: snake",
+    "option2": "quill: porcupine",
+    "option3": "claw: panther",
+    "option4": "hoof: horse",
+    "option5": "tusk: elephant",
+    "correctOption": "c",
+    "explanation": "Eagles have talons, similar to how panther has claw. Talon (নখর) হল Eagle (ঈগল) এর থাবার নখ; আর Claw (থাবা) হলো Panther (চিতা বাঘ) এর থাবার নখ    "
+  },
+  {
+    "question": "ARTICULATE: CLEARLY",
+    "option1": "orate: strongly",
+    "option2": "lecture: willfully",
+    "option3": "shout: loudly",
+    "option4": "malign: incoherently",
+    "option5": "jest: belligerently",
+    "correctOption": "c",
+    "explanation": "Articulate means to speak clearly, similar to how jest means to shout loudly. Articulate (স্পষ্ট ভাবে) মানে Clearly (পরিষ্কারভাবে) কথা বলা; আর Shout (চিৎকার) মানে Loudly (জোড়ে) কথা বলা।"
+  },
+  {
+    "question": "NUANCE: DISTINCTION",
+    "option1": "remnant: preservation",
+    "option2": "hint: suggestion",
+    "option3": "splinter: disintegration",
+    "option4": "shade: spectrum",
+    "option5": "trace: existence",
+    "correctOption": "b",
+    "explanation": "Nuance and Distinction are synonyms, just as hint and suggestion are. Nuance ও Distinction সমার্থক শব্দ, যার অর্থ সামান্য পার্থক্য; আর Hint ও Suggestion সমার্থক শব্দ,ইঙ্গিত করা ।"
+  },
+  {
+    "question": "URBANE: GAUCHERIE",
+    "option1": "confident: coterie",
+    "option2": "diffident: goodwill",
+    "option3": "calculating: imposture",
+    "option4": "fearful: destruction",
+    "option5": "guileless: chicanery",
+    "correctOption": "e",
+    "explanation": "Urbane is the opposite of gaucherie, similar to how guileless is the opposite of chicanery. Urbane (শহুরে) রা কখনো Gaucherie (গেঁয়ো) হয় না; আর Guileless (সাধু) রা কখনও Chicanery (ভন্ড) হয় না ।"
+  },
+  {
+    "question": "VOTING: ROLL CALL",
+    "option1": "termination: cloture",
+    "option2": "majority: concession",
+    "option3": "investigation: legislation",
+    "option4": "amendment: constitution",
+    "option5": "quorum: filibuster",
+    "correctOption": "a",
+    "explanation": "Voting is associated with roll call, similar to how termination is associated with cloture. Voting (ভোট করা) হয় Roll call (হাজিরা নির্ধারণর্থ নাম ডাকা) দেখে; তেমনি Termination (বাদ দেওয়া হয় Cloture (যে তালিকা অনুসারে বাদ দেয়া হয়) দেখে ।    "
+  },
+  {
+    "question": "DEMUR: QUALMS",
+    "option1": "placate: pique",
+    "option2": "atrophy: rehabilitation",
+    "option3": "waver: irresoluteness",
+    "option4": "obligate: benevolence",
+    "option5": "manipulate: experience",
+    "correctOption": "c",
+    "explanation": "Demur and Qualms are synonyms, just as Waver and Irresoluteness are. Demur ও Qualms সমার্থক শব্দ, যার অর্থ দ্বিধা/ সংশয়; আর Waver ও Irresoluteness সমার্থক শব্দ, যার অর্থ দোদুল্যমান ।     "
+  },
+  {
+    "question": "MISER: THRIFT",
+    "option1": "performer: artistry",
+    "option2": "mimic: ridicule",
+    "option3": "scientist: discovery",
+    "option4": "chauvinist: patriotism",
+    "option5": "politician: compromise",
+    "correctOption": "d",
+    "explanation": "Miser and Thrift are related, just like Chauvinist and Patriotism. Miser ও Thrift সমার্থক শব্দ, যার অর্থ কৃপন/মিতব্যয়ী; আর Chauvinist ও Patriotism সমার্থক শব্দ, যার অর্থ স্বদেশ প্ৰেম ।    "
+  },
+  {
+    "question": "FORGERY: COUNTERFEIT",
+    "option1": "duplicity: testimony",
+    "option2": "embezzlement: fraud",
+    "option3": "murder: life",
+    "option4": "arson: insurance",
+    "option5": "theft: punishment",
+    "correctOption": "b",
+    "explanation": "Forgery is creating a counterfeit, similar to embezzlement being a form of fraud.Forgery ও Counterfeit সমার্থক শব্দ, যার অর্থ জালিয়াতি করা; Embezzlement ও Fraud সমার্থক শব্দ, যার অর্থ প্রতারণা করা।    "
+  },
+  {
+    "question": "NICOTINE: TOBACCO",
+    "option1": "calcium: bone",
+    "option2": "protein: meat",
+    "option3": "caffeine: coffee",
+    "option4": "iodine: salt",
+    "option5": "pulp: fruit",
+    "correctOption": "c",
+    "explanation": "Nicotine is found in tobacco, just as caffeine is present in coffee. Nicotine থাকে Tobacco বা তামাকে; আর Caffeine থাকে Coffee-তে। অথবা, Tobacco (তামাক)-এর প্রধান উপাদান Nicotine (নিকোটিন) এবং Coffee (কফি)-এর প্রধান উপাদান Caffeine (ক্যাফেইন)।    "
+  },
+  {
+    "question": "CANDLE: WAX",
+    "option1": "metal: corrosion",
+    "option2": "curtain: pleat",
+    "option3": "wood: ash",
+    "option4": "leather: vinyl",
+    "option5": "tire: rubber",
+    "correctOption": "e",
+    "explanation": "A candle is made of wax, similar to how a tire is made of rubber. Wax (মোম) থেকে Candle (মোমবাতি) তৈরি হয়; আর Rubber (রাবার) থেকে Tire (টায়ার) তৈরি হয়।     "
+  },
+
+  {
+    "question": "BIT : DRILL",
+    "option1": "nut : bolt",
+    "option2": "blade : razor",
+    "option3": "nail : hammer",
+    "option4": "stapler : paper",
+    "option5": "chisel : stone",
+    "correctOption": "b",
+    "explanation": "A bit is used with a drill, just like a blade is used with a razor."
+  },
+  {
+    "question": "MISJUDGE: ASSESS",
+    "option1": "misconstrue : interpret",
+    "option2": "misconduct : rehearse",
+    "option3": "misinform : design",
+    "option4": "misguide : duplicate",
+    "option5": "misperceive : explain",
+    "correctOption": "a",
+    "explanation": "Misjudge is a verb describing the act of making an incorrect assessment, just like misconstrue describes making an incorrect interpretation."
+  },
+  {
+    "question": "COMPLIANT : SERVILE",
+    "option1": "trusting : gullible",
+    "option2": "cringing : fawning",
+    "option3": "pleasant : effortless",
+    "option4": "adventurous : courageous",
+    "option5": "arduous : futile",
+    "correctOption": "a",
+    "explanation": "Compliant and servile are related, just like trusting and gullible."
+  },
+  {
+    "question": "ASTRINGENT : CONTRACTION",
+    "option1": "anesthetic : insensibility",
+    "option2": "analgesic : pain",
+    "option3": "coagulant : euphoria",
+    "option4": "stimulant : drowsiness",
+    "option5": "emollient : irritation",
+    "correctOption": "a",
+    "explanation": "Astringent causes contraction, similar to how an anesthetic induces insensibility."
+  },
+  {
+    "question": "NOMINAL: FIGUREHEAD",
+    "option1": "absolute autocrat",
+    "option2": "cloistered: bishop",
+    "option3": "military tribunal",
+    "option4": "statutory : defendant",
+    "option5": "monolithic legislature",
+    "correctOption": "a",
+    "explanation": "Nominal is a figurehead, just as an absolute autocrat is the ultimate authority. Figurehead (নেতা) হলো Nominal (নামমাত্র) নেতা; আর Autocrat (এক নায়ক) হলো Absolute (নিরঙ্কুশ শাসক ।"
+  },
+  {
+    "question": "PHILOSOPHER : COGITATE",
+    "option1": "linguist: prevaricate",
+    "option2": "politician: capitulate",
+    "option3": "scholar extemporize",
+    "option4": "misanthrope : repeat",
+    "option5": "iconoclast: attack",
+    "correctOption": "e",
+    "explanation": "Philosophers cogitate, just as iconoclasts attack established beliefs. Philosopher (দার্শনিক)-রা Cogitate (গভীরভাবে) চিন্তা করে; আর Iconoclast (বিপ্লবী)-রা Attack (আক্রমণ) করে।"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
